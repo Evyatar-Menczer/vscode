@@ -36,6 +36,7 @@ export class RunAutomaticTasks extends Disposable implements IWorkbenchContribut
 
 	private async tryRunTasks() {
 		this.logService.info('RunAutomaticTasks: Trying to run tasks.');
+		this.logService.info('Afgdgdsgsdgsdghsdgh');
 		// Wait until we have task system info (the extension host and workspace folders are available).
 		if (!this.taskService.hasTaskSystemInfo) {
 			this.logService.info('RunAutomaticTasks: Awaiting task system info.');
